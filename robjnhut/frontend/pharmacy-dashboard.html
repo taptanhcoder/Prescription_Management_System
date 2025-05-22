@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Nhà Thuốc - Quản Lý Nhà Thuốc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex justify-between items-center">
+        <h1 class="text-xl font-bold">Quản Lý Nhà Thuốc</h1>
+        <nav>
+          <a href="index.html">Trang Chủ</a>
+          <a href="doctor-dashboard.html">Dashboard Bác Sĩ</a>
+          <a href="pharmacy-dashboard.html">Dashboard Nhà Thuốc</a>
+          <a href="login.html">Đăng Xuất</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3 class="text-lg font-bold text-blue-600 mb-4">Menu</h3>
+      <a href="#inventory">Kho Thuốc</a>
+      <a href="#orders">Đơn Thuốc</a>
+      <a href="#sales">Bán Hàng</a>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="container">
+        <div class="card">
+          <h2 class="text-2xl font-bold text-blue-600 mb-4">
+            Dashboard Nhà Thuốc
+          </h2>
+          <p class="text-blue-600 mb-6">
+            Quản lý kho thuốc, đơn thuốc, và doanh thu bán hàng.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="card" id="inventory">
+              <h3 class="text-lg font-semibold text-blue-600">Kho Thuốc</h3>
+              <p class="text-blue-600 mb-4">Kiểm tra và quản lý tồn kho.</p>
+              <a href="#" class="btn">Xem Kho</a>
+            </div>
+            <div class="card" id="orders">
+              <h3 class="text-lg font-semibold text-blue-600">Đơn Thuốc</h3>
+              <p class="text-blue-600 mb-4">Xử lý đơn thuốc từ bác sĩ.</p>
+              <a href="#" class="btn">Xem Đơn Thuốc</a>
+            </div>
+            <div class="card" id="sales">
+              <h3 class="text-lg font-semibold text-blue-600">Bán Hàng</h3>
+              <p class="text-blue-600 mb-4">Theo dõi doanh thu và giao dịch.</p>
+              <a href="#" class="btn">Xem Doanh Thu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Quản Lý Nhà Thuốc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
