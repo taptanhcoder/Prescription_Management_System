@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ - Quản Lý Nhà Thuốc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex justify-between items-center">
+        <h1 class="text-xl font-bold">Quản Lý Nhà Thuốc</h1>
+        <nav>
+          <a href="index.html">Trang Chủ</a>
+          <a href="doctor-dashboard.html">Dashboard Bác Sĩ</a>
+          <a href="pharmacy-dashboard.html">Dashboard Nhà Thuốc</a>
+          <a href="login.html">Đăng Xuất</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="card text-center">
+        <h2 class="text-3xl font-bold text-blue-600 mb-4">
+          Chào Mừng Đến Với Hệ Thống Quản Lý Nhà Thuốc
+        </h2>
+        <p class="text-blue-600 mb-6">
+          Hệ thống hỗ trợ bác sĩ và nhà thuốc quản lý đơn thuốc, kho thuốc, và
+          thông tin bệnh nhân một cách hiệu quả.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="card">
+            <h3 class="text-lg font-semibold text-blue-600">Bác Sĩ</h3>
+            <p class="text-blue-600 mb-4">Quản lý bệnh nhân và đơn thuốc.</p>
+            <a href="doctor-dashboard.html" class="btn">Vào Dashboard Bác Sĩ</a>
+          </div>
+          <div class="card">
+            <h3 class="text-lg font-semibold text-blue-600">Nhà Thuốc</h3>
+            <p class="text-blue-600 mb-4">Quản lý kho thuốc và đơn hàng.</p>
+            <a href="pharmacy-dashboard.html" class="btn"
+              >Vào Dashboard Nhà Thuốc</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Quản Lý Nhà Thuốc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

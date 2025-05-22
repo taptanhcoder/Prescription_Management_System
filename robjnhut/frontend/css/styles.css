@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tùy chỉnh tông màu xanh dương nhẹ */
+body {
+  @apply bg-blue-50 font-sans text-gray-800;
+}
+
+.header {
+  @apply bg-blue-600 text-white p-4 sticky top-0 z-10 shadow-md;
+}
+
+.header a {
+  @apply text-white hover:text-blue-200 mx-3 transition;
+}
+
+.navbar {
+  @apply bg-white p-2 shadow-md;
+}
+
+.navbar a {
+  @apply text-blue-600 hover:text-blue-800 mx-4 transition;
+}
+
+.search-bar {
+  @apply w-full max-w-md p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.product-card {
+  @apply bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition;
+}
+
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition;
+}
+
+.sidebar {
+  @apply bg-blue-100 w-64 p-4 h-full fixed top-0 left-0 mt-16;
+}
+
+.sidebar a {
+  @apply block py-2 px-4 text-blue-600 hover:bg-blue-200 rounded transition;
+}
+
+.main-content {
+  @apply ml-0 md:ml-64 p-6;
+}
+
+.footer {
+  @apply bg-blue-600 text-white p-4 text-center mt-8;
+}
